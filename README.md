@@ -18,4 +18,4 @@ This function allow the user to sign in only well the user and the passwords is 
 <img src="https://user-images.githubusercontent.com/95551123/194890050-e5a13df4-6d9e-4e7b-9fe6-4779f9aaf8d5.png">
 <br>
 <h2>What I will improve on </h2>
-First once i understand database and how to store information will make a opinion page where it will keep comment on the page even when the page refresh
+First once i understand database and how to store information will make a opinion page where the user will make a comment on the page and the website store it.
