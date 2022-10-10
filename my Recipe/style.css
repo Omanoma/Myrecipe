@@ -1,0 +1,215 @@
+*{
+  font-family: "Source Sans Pro", sans-serif; 
+}
+html{
+  background-color: skyblue;
+}
+.on{
+ color: blue;
+}
+body{
+  margin:auto;
+  background-color: white;
+}
+footer{
+  position:relative ;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: skyblue;
+  text-align: center;
+  margin-bottom:0;
+ 
+}
+
+h1, h2{
+   text-align: center;
+   font-family: "Source Sans Pro", sans-serif;
+   font-weight: normal;
+}
+#title{
+  color:white;
+  font-size: 129px;
+  font-family: 'Fugaz One', cursive;
+  transition-delay: 1s;
+}
+#menu{
+ display:none;
+   text-align: left;
+   border: 2px solid blueviolet; 
+   font-size: 13px;
+   position: absolute;
+}
+#menu2{
+background-color: rgba(0,204,255,0.7);
+position: relative;
+display: flex;
+flex-flow: row;
+}
+#menu h2{
+ margin-right: 10px;
+ text-transform: uppercase;
+
+}
+#menu2 button{
+  height: 30px;
+  position: right !important;
+  
+}
+i:hover #menu {
+ background-color: white;
+ display: block;
+ z-index: 4;
+ }
+i{
+  margin-right: 3%;
+  margin-left: 3%;
+   font-size: 30px;
+   cursor: pointer;
+  
+  
+}
+#menu h2:hover{
+ color: red;
+}
+a h2{
+   color: black;
+}
+p {
+   font-family: "Source Sans Pro", sans-serif;
+   font-weight: normal;
+   padding: 0 auto;
+   margin: 10px;
+}
+#me{
+  display:flex;
+  font-size: 39px;
+}
+#me img{
+   width: 50%;
+   height: 50%;
+   margin: 0 auto;
+   display: block;
+}
+.morn{
+overflow-x: scroll;
+height: 150px;
+
+}
+
+.food ul{
+ overflow-x: scroll;
+ height: 270px;
+ display: flex;
+ flex-flow: row;
+ 
+}
+.food li{
+   display: inline-block;
+   padding-right: 50px; 
+   
+}
+.food li img{
+ height: 200px;
+ width: 200px;
+ 
+}
+.need{
+ color:red;
+}
+
+header{
+  padding-bottom: 100px;
+  background-image:url("https://thumbs.dreamstime.com/z/asian-food-background-various-ingredients-rustic-stone-top-view-vietnam-thai-cuisine-148762904.jpg");
+  background-size: fill;
+  transition-delay: 1s;
+}
+header:hover{
+  background-image: url("https://thumbs.dreamstime.com/b/greek-food-background-traditional-different-greek-dishes-set-greek-food-background-traditional-different-greek-dishes-set-top-view-178761927.jpg");
+  transition-delay: 1s;
+}
+header:hover #title{
+  color: black;
+  transition-delay: 1s;
+}
+.sec{
+  border: 2px solid red;
+  display: inline-block;
+  max-width: 300px;
+  margin: 30px;
+  padding: 10px;
+}
+.detail{
+  margin-left: 90px;
+  margin-right: 30px;
+  
+}
+.m,.d{
+  text-align: center;
+
+}
+.m{
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.amount {
+text-align: center;
+margin: 30px;
+
+}
+.amount button{
+  margin: 20px;
+  border-radius: 20px;
+  padding: 40px;
+  border: none;
+  background-color: skyblue;
+  cursor: pointer;
+}
+.amount button:hover{
+  opacity: 0.5;
+}
+button{
+  cursor: pointer;
+}
+/*img{
+ height:250px;
+ width:250px;
+ margin-right: 90px;
+ margin-left: 90px;
+}*/
+#f{
+  /*display:inline-block;*/
+  margin-right: 90px;
+  margin-left: 150px;
+  text-align: left;
+}
+/*sign in*/
+#we{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(250,0,250); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  
+}
+#t{
+  border: 10px red solid;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 60px;
+  background-color: beige;
+}
+  
+
+input[type=text], input[type=password]
+{width: 50%;
+  height:10%;}

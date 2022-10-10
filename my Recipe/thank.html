@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+     <script src="script.js"></script>
+    <title>Donate</title>
+    <style>
+    #we{
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(250,0,250); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      padding-top: 60px;
+      text-align: center;
+      color: black;
+      font-size: 25px;
+      
+    }
+    #t{
+      border: 10px red solid;
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-bottom: 60px;
+      background-color: beige;
+    }
+      
+  
+    input[type=text], input[type=password]
+    {width: 50%;
+      height:10%;}
+      
+    
+    
+  </style>
+
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a86d4eb4d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+   <script src="script.js"></script> 
+   <link rel = "icon" href = 
+"https://images.coplusk.net/project_images/208626/image/2019-11-27-210127-burger.jpg" 
+    type = "image/x-icon">
+</head>
+    <header>
+      <div id = menu2>
+         <i class="fa-solid fa-bars">
+       <div id =menu>
+           <a href = "index.html"><h2>about me</h2></a>
+           <a href = "Donate.html"><h2>donate</h2></a>
+           <a href = "recipe.html"><h2>Recipe</h2></a>
+           <a href = "opinion.html"><h2>Opinion about the website</h2></a>
+        </div>
+    </i>
+    
+        <button class = sign_up onclick="document.getElementById('we').style.display='block'">SIGN UP</button>
+    
+      </div>
+      <br><br>
+       <h1 id = "title">My Recipe</h1>
+       <br><br>
+</header> 
+<div id = 'we'>
+<form id = 't' name = "myForm">
+  <label for = "uname"><p>Username</p></label>
+  <input type="text" placeholder="Enter Username" name="uname" required>
+  <label for = "pw"><p>Password</p></label>
+  <input type="password" placeholder="Enter password" name="pw" required><br></br>
+  <button type = "submit" onclick="myform()">login in</button>
+</form>
+</div>
+<script>
+  // Get the modal
+  var modal = document.getElementById('we');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  function myform(){
+    let x = document.forms["myForm"]["uname"].value;
+    let y = document.forms["myForm"]["pw"].value;
+    if(y === x){
+      alert("Welcome back "+x);
+      modal.style.display = "none";
+    }
+    else{
+      alert("Who are you?");
+      modal.style.display = "block";
+    }
+  }
+  </script>
+
+
+    
+        
+    </body>
+
+</html>
